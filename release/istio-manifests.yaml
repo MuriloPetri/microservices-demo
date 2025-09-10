@@ -6,7 +6,7 @@ metadata:
   namespace: default
 spec:
   selector:
-    istio: ingressgateway # Use o ingressgateway padrão do Istio
+    istio: ingressgateway  # Seleciona o ingressgateway padrão do Istio
   servers:
   - port:
       number: 80
@@ -71,4 +71,3 @@ spec:
     name: https
     protocol: HTTPS
   location: MESH_EXTERNAL
-
